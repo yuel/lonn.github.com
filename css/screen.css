@@ -89,13 +89,13 @@ ul.posts li a {
   background: #f9fc7e;
 }
 
-#home {
+#homelink {
   padding-left: 1.2em;
   font-size: 0.5em;
   color: #aaa;
 }
 
-#home:hover {
+#homelink:hover {
   color: black;
 }
 
