@@ -31,7 +31,7 @@ p {
 }
 
 a {
-  color: #00a;
+  color: #333;
 }
 
 a:hover {
@@ -58,8 +58,13 @@ ul.posts li {
   line-height: 1.7px;
 }
 
-ul.posts li a {
+ul.posts li a, ul.posts li a:hover {
+  text-decoration: none;
   padding-left: 8px;
+}
+
+ul.posts li a:hover {
+  background: #f9fc7e;
 }
 
 /* Site */
