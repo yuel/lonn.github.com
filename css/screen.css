@@ -51,7 +51,7 @@ table {
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 ul.posts li {
@@ -71,7 +71,7 @@ ul.posts li a:hover {
 .site {
   /*font-size: 110%;*/
   text-align: justify;
-  width: 50em;
+  width: 650px;
   margin: 3em auto 2em auto;
   /*line-height: 1.5em;*/
 }
@@ -128,12 +128,15 @@ ul.posts li a:hover {
 }
 
 .site .footer {
+  width: 100%;
   font-size: 80%;
   line-height: 1.3;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
+  float: left;
+  clear: both;
 }
 
 .site .footer .contact {
@@ -157,3 +160,15 @@ ul.posts li a:hover {
 
 /* Posts */
 
+/* box */
+.box {
+  width: 155px;
+  height: 155px;
+  margin-right: 10px;
+  float: left;
+  background-color: #333;
+}
+
+.nomarginright {
+  margin-right: 0;
+}
