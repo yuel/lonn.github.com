@@ -60,7 +60,6 @@ ul.posts li {
 
 ul.posts li a, ul.posts li a:hover {
   text-decoration: none;
-  padding-left: 8px;
 }
 
 ul.posts li a:hover {
@@ -80,6 +79,7 @@ ul.posts li a:hover {
 .datetime {
   color: #666;
   padding-right: 8px;
+  margin-right: 8px;
   border-right: 1px solid #999;
   font-size: 80%;
   font-family: Monaco, "Courier New", monospace;
