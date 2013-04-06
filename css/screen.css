@@ -51,7 +51,6 @@ table {
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 1em;
 }
 
 ul.posts li {
@@ -156,6 +155,7 @@ ul.posts li a:hover {
 .box {
   width: 155px;
   height: auto;
+  margin-top: 1em;
   margin-right: 10px;
   float: left;
 }
