@@ -94,13 +94,14 @@ ul.posts li a:hover {
 }
 
 #homelink {
-  padding-left: 1.2em;
+  margin-left: 1.2em;
   font-size: 0.5em;
   color: #aaa;
 }
 
 #homelink:hover {
   color: black;
+  background: #f9fc7e;
 }
 
 .site .title a {
@@ -112,15 +113,7 @@ ul.posts li a:hover {
   color: black;
 }
 
-.site .title a.extra {
-  color: #aaa;
-  text-decoration: none;
-  margin-left: 1em;
-}
 
-.site .title a.extra:hover {
-  color: black;
-}
 
 .site .meta {
   color: #aaa;
