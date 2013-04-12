@@ -195,3 +195,7 @@ border-left: 4px solid #DDD;
 padding: 0 15px;
 color: #777;
 }
+
+blockquote ul {
+  padding-left: 30px;
+}
