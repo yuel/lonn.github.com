@@ -189,3 +189,9 @@ code {
   background-color: #f8f8f8;
   border-radius: 3px;
 }
+
+blockquote {
+border-left: 4px solid #DDD;
+padding: 0 15px;
+color: #777;
+}
