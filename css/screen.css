@@ -182,6 +182,7 @@ ul.posts li a:hover {
   margin-right: 0;
 }
 
+/* code */
 code {
   margin: 0 2px;
   padding: 1px 5px;
@@ -199,4 +200,29 @@ color: #777;
 
 blockquote ul {
   padding-left: 15px;
+}
+
+body pre {
+  background-color: #f8f8f8;
+	border: 1px solid #ccc;
+	font-size: 13px;
+	line-height: 19px;
+	overflow: auto;
+	padding: 6px 10px;
+	border-radius: 3px;
+}
+
+pre code {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+}
+
+body pre > code {
+	margin: 0;
+	padding: 0;
+	white-space: pre;
+	border: none;
+	background: transparent;
 }
