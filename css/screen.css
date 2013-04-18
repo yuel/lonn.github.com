@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  background-color: url(../img/cream_dust.png) repeat 0 0;
+  background: url(../img/cream_dust.png) repeat 0 0;
   font-family: Verdana, helvetica, arial, clean, sans-serif;
   font-size: 13px;
   line-height: 1.7;
