@@ -159,6 +159,7 @@ ul.posts li a:hover {
   margin-top: 1em;
   margin-right: 10px;
   float: left;
+  box-shadow: 0 0 3px 1px #ccc;
 }
 
 .box h3 {
