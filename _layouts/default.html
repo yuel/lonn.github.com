@@ -8,71 +8,74 @@
 	<link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
 </head>
 <body>
-	<div class="site">
+<div id="wrap">
+	<div id="header">
+		<h1>
+			<a href="/">{{ page.title }}</a>
+		</h1>
+	</div>
 
-		<div class="title">
-			<a>{{ page.title }}</a>
-			<a id="homelink" href="/">HOME</a>
+	<div id="container">
+		<!-- <div id="home">
+			<h2>Blog Posts</h2>
+		</div> -->
+
+		{{ content }}
+		
+		<div id="cols">
+			<div class="col">
+				<div class="box">
+					<h3>IT articles</h3>
+					<a href="http://coolshell.cn/articles/4990.html">程序员技术练级攻略</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+				</div>
+			</div>
+			<div class="col">
+				<div class="box">
+					<h3>design</h3>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+				</div>
+			</div>
+			<div class="col mr0">
+				<div class="box">
+					<h3>resources</h3>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+					<a href="/">Not set yet</a>
+				</div>
+			</div>
 		</div>
-
-　　{{ content }}
-
-	<div class="box">
-		<h3>IT articles</h3>
-		<a href="http://coolshell.cn/articles/4990.html">程序员技术练级攻略</a>
-    <a href="/">Not set yet</a>
-    <a href="/">Not set yet</a>
-    <a href="/">Not set yet</a>
 	</div>
-
-	<div class="box">
-		<h3>design</h3>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-
+	<div id="footer">
+		lonnglau@gmail.com
 	</div>
-
-	<div class="box">
-		<h3>resources</h3>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-
-	</div>
-
-	<div class="box nomarginright">
-		<h3>other</h3>
-		<a href="http://wowubuntu.com/markdown/basic.html">Markdown 语法说明</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-		<a href="/">Not set yet</a>
-
-	</div>
-
-	<div class="footer">
-		<div class="contact">
-			<p>
-				Mark Lau<br />
-				lonnglau@gmail.com<br />
-			</p>
-		</div>
-	</div>
-
-	</div>
+</div>
 </body>
 </html>
