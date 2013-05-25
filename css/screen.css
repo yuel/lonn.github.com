@@ -46,10 +46,16 @@ ul ul,ol ol {
 	padding:0;
 }
 
-li { padding:0 4px; color:#ccc; list-style: none; }
+li {
+	padding:0 4px; color:#ccc; list-style: none;
+}
 
-ul.posts li span { float:right; font-family:monofur, monaco, courier; color:#888; }
-ul.posts li a { font-weight:200;}
+ul.posts li span {
+	float:right; font-family:monofur, monaco, courier; color:#888;
+}
+ul.posts li a {
+	font-weight:200;
+}
 
 /* Home */
 /*
@@ -64,16 +70,17 @@ ul.posts li {
 */
 
 ul.posts li a, ul.posts li a:hover {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 ul.posts li a:hover {
-  background: #f9fc7e;
+	background: #f9fc7e;
 }
 
-.datetime {
-	color: #666;
+ul.posts li span {
 	float: right;
+	font-family: monofur, monaco, courier;
+	color: #888;
 }
 
 #wrap {
