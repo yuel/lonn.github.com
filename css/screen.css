@@ -1,3 +1,8 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
 body {
 	margin: 0 auto;
 	padding: 0;
@@ -29,6 +34,7 @@ ul, ol, dl {
 /* Home */
 ul.posts {
   list-style-type: none;
+  padding: 0;
 }
 
 ul.posts li {
@@ -41,6 +47,11 @@ ul.posts li a, ul.posts li a:hover {
 
 ul.posts li a:hover {
   background: #f9fc7e;
+}
+
+.datetime {
+	color: #666;
+	float: right;
 }
 
 #wrap {
