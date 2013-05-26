@@ -64,6 +64,10 @@ ul.posts li a {
 	font-weight:200;
 }
 
+ul.posts li a:hover {
+  background: #f9fc7e;
+}
+
 /* Home */
 /*
 ul.posts {
