@@ -52,7 +52,7 @@ li {
 }
 
 ul.posts li span {
-    font-family:monofur, monaco, courier; color:#888;
+    font-family:monofur, monaco, courier; color:#888; font-size: 80%;
 }
 ul.posts li a {
     font-weight:200;
