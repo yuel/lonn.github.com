@@ -99,6 +99,7 @@ ul.posts li a:hover {
 #banner {
     border-left: 2px #A0C5E8 solid;
     padding-left: 10px;
+    margin-bottom: 15px;
 }
 
 #home {
