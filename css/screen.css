@@ -123,6 +123,20 @@ ul.posts li a:hover {
     padding-left: 10px;
 }
 
+.post-title {
+    font-size: 0.9em;
+    border-bottom: 1px solid #eee;
+}
+
+.post-meta {
+    text-align: right;
+    font-size: 0.9em;
+}
+
+.content ol ul {
+    margin: 10px;
+}
+
 /* code */
 code {
     margin: 0 2px;
