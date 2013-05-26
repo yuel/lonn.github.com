@@ -33,29 +33,12 @@ h2 {
 	padding: 0px 2px 4px 5px;
 }
 
-ul,ol,dl {
-	font-size:1em;
-	margin:2px 0 16px 0px;
-}
 
-ul ul,ol ol {
-	margin:4px 0 4px 10px;
-}
 
-.posts {
-	padding:0;
-}
 
-li {
-	padding:0 4px; color:#ccc; list-style: none;
-}
 
-ul.posts li span {
-	float:right; font-family:monofur, monaco, courier; color:#888;
-}
-ul.posts li a {
-	font-weight:200;
-}
+
+
 
 /* Home */
 /*
@@ -69,19 +52,7 @@ ul.posts li {
 }
 */
 
-ul.posts li a, ul.posts li a:hover {
-	text-decoration: none;
-}
 
-ul.posts li a:hover {
-	background: #f9fc7e;
-}
-
-ul.posts li span {
-	float: right;
-	font-family: monofur, monaco, courier;
-	color: #888;
-}
 
 #wrap {
 	/*color: #f4f4f4;*/
