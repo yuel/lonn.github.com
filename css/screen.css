@@ -33,13 +33,6 @@ h2 {
 	padding: 0px 2px 4px 5px;
 }
 
-h3 {
-	font-size: 1.7em;
-	font-weight: 100;
-	letter-spacing: -1px;
-	line-height: 1.6em;
-}
-
 ul,ol,dl {
 	font-size:1em;
 	margin:2px 0 16px 0px;
@@ -65,22 +58,8 @@ ul.posts li a {
 }
 
 ul.posts li a:hover {
-  background: #f9fc7e;
+	background: #f9fc7e;
 }
-
-/* Home */
-/*
-ul.posts {
-  list-style-type: none;
-  padding: 0;
-}
-
-ul.posts li {
-  line-height: 1.7px;
-}
-*/
-
-
 
 #wrap {
 	/*color: #f4f4f4;*/
@@ -103,32 +82,6 @@ ul.posts li {
 	line-height: 1.5em;
 }
 
-.col {
-	width: 160px;
-	margin-right: 10px;
-	float: left;
-	box-shadow: 0 0 3px 1px #ccc;
-}
-
-.box {
-	text-align: center;
-}
-
-.mr0 {
-	margin-right: 0;
-}
-
-.box a {
-	background-color: #f5f5f5;
-	font-size: 80%;
-	display: block;
-	padding: 3px;
-}
-
-.box a:hover {
-	background: #f9fc7e;
-}
-
 #footer {
 	border-top: 4px solid #dadada;
 	clear: both;
@@ -142,12 +95,12 @@ ul.posts li {
 
 /* code */
 code {
-  margin: 0 2px;
-  padding: 1px 5px;
-  border: 1px solid #eaeaea;
-  background-color: #f8f8f8;
-  font-size: 13px;
-  font-family: Courier;
+	margin: 0 2px;
+	padding: 1px 5px;
+	border: 1px solid #eaeaea;
+	background-color: #f8f8f8;
+	font-size: 13px;
+	font-family: Courier;
 }
 
 blockquote {
@@ -157,11 +110,11 @@ blockquote {
 }
 
 blockquote ul {
-  padding-left: 15px;
+	padding-left: 15px;
 }
 
 body pre {
-  background-color: #f8f8f8;
+	background-color: #f8f8f8;
 	border: 1px solid #ccc;
 	font-size: 13px;
 	line-height: 19px;
