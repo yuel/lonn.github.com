@@ -33,6 +33,13 @@ h2 {
 	padding: 0px 2px 4px 5px;
 }
 
+h3 {
+	font-size: 1.7em;
+	font-weight: 100;
+	letter-spacing: -1px;
+	line-height: 1.6em;
+}
+
 ul,ol,dl {
 	font-size:1em;
 	margin:2px 0 16px 0px;
