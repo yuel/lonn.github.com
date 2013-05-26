@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Hello World!
 ---
 I was born in 07 Feb 1991,
