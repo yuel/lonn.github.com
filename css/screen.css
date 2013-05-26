@@ -83,7 +83,7 @@ ul.posts li a:hover {
 }
 
 #footer {
-	border-top: 4px solid #dadada;
+	border-top: 2px dashed #eee;
 	clear: both;
 	color: gray;
 	font-size: 0.9em;
