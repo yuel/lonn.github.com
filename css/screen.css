@@ -9,6 +9,7 @@ body {
 	font: 86% Verdana, helvetica, arial, clean, sans-serif;
 	line-height: 1.2em;
 	color: #333;
+	background: #eee;
 }
 
 a {
@@ -66,6 +67,7 @@ ul.posts li a:hover {
 	margin: 10px auto;
 	padding: 0;
 	width: 670px;
+	background: url(/img/cream_dust.png) repeat 0 0;
 }
 
 #header {
