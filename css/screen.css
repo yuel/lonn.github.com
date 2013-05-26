@@ -9,7 +9,7 @@ body {
     font: 86% Verdana, helvetica, arial, clean, sans-serif;
     line-height: 1.2em;
     color: #333;
-    background: #eee;
+    background: url(/img/cream_dust.png) repeat 0 0;
 }
 
 a {
@@ -67,13 +67,14 @@ ul.posts li a:hover {
     margin: 10px auto;
     padding: 0;
     width: 670px;
-    background: url(/img/cream_dust.png) repeat 0 0;
 }
 
 #header {
     text-align: center;
     border: 1px solid #A0C5E8;
     margin-bottom: 30px;
+    border-left: 5px #A0C5E8 solid;
+    padding-left: 5px;
 }
 
 #header a {
@@ -91,6 +92,8 @@ ul.posts li a:hover {
     width: 500px;
     float: left;
     margin-bottom: 16px;
+    border-left: 5px #A0C5E8 solid;
+    padding-left: 5px;
 }
 
 #home {
@@ -104,8 +107,9 @@ ul.posts li a:hover {
     font-size: 0.9em;
     line-height: 1.6em;
     margin: 0 auto;
-    padding: 8px 0;
     text-align: right;
+    border-left: 5px #A0C5E8 solid;
+    padding-left: 5px;
 }
 
 /* code */
