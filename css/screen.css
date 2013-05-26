@@ -58,7 +58,7 @@ li {
 }
 
 ul.posts li span {
-	float:right; font-family:monofur, monaco, courier; color:#888;
+	font-family:monofur, monaco, courier; color:#888;
 }
 ul.posts li a {
 	font-weight:200;
