@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    background: #f9fc7e;
+}
+
 h1 {
     font-size: 3.7em;
     letter-spacing: -5px;
@@ -66,13 +70,13 @@ ul.posts li a:hover {
     /*color: #f4f4f4;*/
     margin: 10px auto;
     padding: 0;
-    width: 670px;
+    width: 790px;
 }
 
 #header {
     margin-bottom: 15px;
-    border-left: 5px #A0C5E8 solid;
-    padding-left: 5px;
+    border-left: 2px #A0C5E8 solid;
+    padding-left: 10px;
 }
 
 #header a {
@@ -90,12 +94,17 @@ ul.posts li a:hover {
     width: 500px;
     float: left;
     margin-bottom: 15px;
-    border-left: 5px #A0C5E8 solid;
-    padding-left: 5px;
+}
+
+#banner {
+    border-left: 2px #A0C5E8 solid;
+    padding-left: 10px;
 }
 
 #home {
     line-height: 1.5em;
+    border-left: 2px #A0C5E8 solid;
+    padding-left: 10px;
 }
 
 #footer {
@@ -104,8 +113,8 @@ ul.posts li a:hover {
     font-size: 0.9em;
     line-height: 1.6em;
     margin: 0 auto;
-    border-left: 5px #A0C5E8 solid;
-    padding-left: 5px;
+    border-left: 2px #A0C5E8 solid;
+    padding-left: 10px;
 }
 
 /* code */
