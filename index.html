@@ -2,8 +2,12 @@
 layout: default
 title: Mark Lau's blog
 ---
+<div id="banner">
+    <a href="http://www.flickr.com/photos/56778490@N06/7175688069/" title="Flickr 上 longn11 的 日"><img src="http://farm8.staticflickr.com/7075/7175688069_a2eeef6ca5.jpg" width="320" height="320" alt="日"></a>
+</div>
+
 <div id="home">
-Posts:
+<span>Posts:</span>
 <ul class="posts">
     {% for post in site.posts %}
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
