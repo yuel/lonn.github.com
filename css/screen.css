@@ -124,13 +124,15 @@ ul.posts li a:hover {
 }
 
 .post-title {
-    font-size: 0.9em;
+    font-size: 1.2em;
     border-bottom: 1px solid #eee;
+    letter-spacing: -1px;
+    color: #f36c3d;
 }
 
 .post-meta {
     text-align: right;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .content ol ul {
