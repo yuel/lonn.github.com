@@ -23,6 +23,7 @@ a:hover {
 
 p {
     font-size: 0.9em;
+    line-height: 1.6em;
 }
 
 h1 {
@@ -133,6 +134,7 @@ code {
 }
 
 blockquote {
+    margin: 10px;
     border-left: 4px solid #DDD;
     padding: 0 15px;
     color: #777;
