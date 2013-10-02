@@ -1,0 +1,87 @@
+body {
+	font-family: Arial;
+	letter-spacing: 2px;
+	color: #333333;
+	letter-spacing: 2px;
+	background-color: #e3e5e5;
+	height: 1800px;
+	margin: 0;
+	padding: 0;
+}
+
+#parallax-bg3 {
+    left: 50%;
+    margin-left: -470px;
+    position: fixed;
+    top: 0;
+    width: 940px;
+    z-index: 3;
+}
+
+#bg3-1 {
+    left: 420px;
+    position: absolute;
+    top: -111px;
+}
+
+#parallax-bg2 {
+    left: 50%;
+    margin-left: -600px;
+    position: fixed;
+    top: 0;
+    width: 1200px;
+    z-index: 2;
+}
+
+#bg2-1 {
+    left: 200px;
+    position: absolute;
+    top: 162px;
+}
+
+#bg2-2 {
+    left: 1150px;
+    position: absolute;
+    top: 300px;
+}
+
+#bg2-3 {
+    left: -35px;
+    position: absolute;
+    top: 543px;
+}
+
+#parallax-bg1 {
+    left: 50%;
+    margin-left: -600px;
+    position: fixed;
+    top: 0;
+    width: 1200px;
+    z-index: 1;
+}
+
+#bg1-1 {
+    left: -270px;
+    position: absolute;
+    top: 85px;
+}
+
+#bg1-2 {
+    left: 795px;
+    position: absolute;
+    top: 440px;
+}
+
+#content {
+    line-height: 1.7;
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 100px 10px;
+    position: relative;
+    z-index: 4;
+}
+
+#about {
+    position: absolute;
+    top: 1300px;
+}
