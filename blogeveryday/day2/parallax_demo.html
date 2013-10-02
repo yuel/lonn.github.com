@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>parallax demo</title>
+  <link rel="stylesheet" type="text/css" href="demo.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/parallax_demo.js"></script>
+  <script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+  <script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+  <script type="text/javascript" src="scripts/jquery.inview.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('#nav').localScroll();
+  })
+  </script>
+</head>
+<body>
+
+  <div id="content">
+    <h1>Day 2 - parallax effect</h1>
+    <div id="about">
+      <h1>The End</h1>
+    </div>
+  </div>
+
+  <div id="parallax-bg3">
+    <img id="bg3-1" src="images/balloon.png"></img>
+  </div>
+  <div id="parallax-bg2">
+    <img id="bg2-1" src="images/cloud-lg1.png"></img>
+    <img id="bg2-2" src="images/cloud-lg1.png"></img>
+    <img id="bg2-3" src="images/cloud-lg1.png"></img>
+  </div>
+  <div id="parallax-bg1">
+    <img id="bg1-1" src="images/cloud-lg2.png"></img>
+    <img id="bg1-2" src="images/cloud-lg2.png"></img>
+  </div>
+</body>
+</html>
