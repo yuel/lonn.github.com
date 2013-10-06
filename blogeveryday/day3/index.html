@@ -4,22 +4,7 @@
   <link rel="stylesheet" type="text/css" href="index.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
   </script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      var date = new Date();
-      var day = date.getDay();
-      var msg = ["Sunday :)",
-                 "Monday :(",
-                 "Tuesday :\\",
-                 "Wednesday :|",
-                 "Thursday :]",
-                 "Thank god It's Friday :>",
-                 "Saturday :>"]
-      $('#' + day).attr('id', 'today');
-      $("#message").text(msg[day]);
-    });
-    
-  </script>
+  <script type="text/javascript" src="day_tracker.js"></script>
 </head>
 <body>
   <div id="wrap">
