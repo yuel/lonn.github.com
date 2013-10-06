@@ -1,0 +1,57 @@
+<html>
+<head>
+  <title>What day is it today</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var date = new Date();
+      var day = date.getDay();
+      var msg = ["Sunday :)",
+                 "Monday :(",
+                 "Tuesday :\\",
+                 "Wednesday :|",
+                 "Thursday :]",
+                 "Thank god It's Friday :>",
+                 "Saturday :>"]
+      $('#' + day).attr('id', 'today');
+      $("#message").text(msg[day]);
+    });
+    
+  </script>
+</head>
+<body>
+  <div id="wrap">
+    <div id="main">
+      <div id="tab_container">
+        <div class="tab" id='0'>
+          <div class="day">Sun</div>
+        </div>
+        <div class="tab" id='1'>
+          <div class="day">Mon</div>
+        </div>
+        <div class="tab" id='2'>
+          <div class="day">Tue</div>
+        </div>
+        <div class="tab" id='3'>
+          <div class="day">Wed</div>
+        </div>
+        <div class="tab" id='4'>
+          <div class="day">Thu</div>
+        </div>
+        <div class="tab" id='5'>
+          <div class="day">Fri</div>
+        </div>
+        <div class="tab" id='6'>
+          <div class="day">Sat</div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div id="message"></div>
+    </div>
+  </div>
+  
+  
+</body>
+</html>
