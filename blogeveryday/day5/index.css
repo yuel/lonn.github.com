@@ -1,0 +1,72 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#container {
+	position: relative;
+}
+
+#main {
+	width: 960px;
+	position: fixed;
+	top: 50%;
+}
+
+._box {
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+	text-align: center;
+}
+
+.text {
+	line-height: 50px;
+	/*color: #ddd;*/
+}
+
+.text_2 {
+	/*display: none;*/
+	line-height: 50px;
+}
+
+.dspl_none {
+	display: none;
+}
+
+.rise {
+	-webkit-animation: rise 2000;
+	-moz-animation: rise 2000;
+	-ms-animation: rise 2000;
+	-o-animation: rise 2000;
+	animation: rise 2000;
+}
+
+@keyframes rise {
+	0%, 100% {transform: translateX(0);}
+	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {transform: translateY(-10px);}
+}
+
+@-moz-keyframes rise {
+	0%, 100% {-moz-transform: translateX(0);}
+	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {-moz-transform: translateY(-10px);}
+}
+
+@-webkit-keyframes rise {
+	0%, 100% {-webkit-transform: translateX(0);}
+	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {-webkit-transform: translateY(-10px);}
+}
+
+.box_color {
+	background-color: #ddd;
+}
+
+.tomato {
+	background-color: tomato;
+}
+
+.text_color {
+	color: #111;
+}
