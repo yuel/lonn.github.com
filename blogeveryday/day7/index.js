@@ -2,7 +2,7 @@ $(document).ready(function() {
     // var words = getWordsArray();
     var words = ["Anna",
                  "Brittany",
-                 "Cinderell,
+                 "Cinderell",
                  "Diana",
                  "Eva",
                  "Fiona",
