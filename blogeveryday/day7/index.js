@@ -90,7 +90,7 @@ $(document).ready(function() {
     $('#txt1').on('keyup', function() {
         var str = $("#txt1").val();
         showHint(str);
-        console.log(str);
+        // console.log(str);
     })
 
     $('#txt1').focus();
