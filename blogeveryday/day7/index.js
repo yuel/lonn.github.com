@@ -1,11 +1,35 @@
 $(document).ready(function() {
     // var words = getWordsArray();
-    var words = ['apple',
-                 'banana',
-                 'bike',
-                 'cherry',
-                 'doodle',
-                 'elephant']
+    var words = ["Anna",
+                 "Brittany",
+                 "Cinderell,
+                 "Diana",
+                 "Eva",
+                 "Fiona",
+                 "Gunda",
+                 "Hege",
+                 "Inga",
+                 "Johanna",
+                 "Kitty",
+                 "Linda",
+                 "Nina",
+                 "Ophelia",
+                 "Petunia",
+                 "Amanda",
+                 "Raquel",
+                 "Cindy",
+                 "Doris",
+                 "Eve",
+                 "Evita",
+                 "Sunniva",
+                 "Tove",
+                 "Unni",
+                 "Violet",
+                 "Liza",
+                 "Elizabeth",
+                 "Ellen",
+                 "Wenche",
+                 "Vicky"]
 
     var word = getWord();
 
