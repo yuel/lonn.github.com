@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0.8px;
+}
+
+header {
+	margin-bottom: 30px;
+	padding: 15px 20px;
+	background-color: #fafafa;
+	border-bottom: 5px solid #009786;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.container {
+	/*position: relative;*/
+}
+
+.msg_container {
+	margin-top: 150px;
+	margin-bottom: 20px;
+}
+
+.main {
+	/*position: fixed;*/
+	/*top: 50%;*/
+	background-color: rgba(233, 233, 233, 0.29);
+	width: 700px;
+	margin: 0 auto;
+}
+
+#txt1 {
+	width: 700px;
+	padding: 0 8px;
+	font-size: 15px;
+	background-color: rgba(255,255,255,0.9);
+	color: #343d3d;
+}
+
+.word_container {
+	margin-top: 20px;
+}
