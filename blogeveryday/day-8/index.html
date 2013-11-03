@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>Template Template</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="index.css">
+	<script src="jquery.min.js"></script>
+	<script src="index.js"></script>
+</head>
+<body>
+<header>
+	<h1>Teleprompter</h1>
+</header>
+<div id="container">
+	<div id="header"></div>
+	<div id="main">
+		<h2>
+			Enter your speech or other text below 
+			<br>
+			to have it returned in a teleprompter.
+		</h2>
+		<form action="" id="text_form">
+			<textarea placeholder="Enter your text here."></textarea>
+			<input class="btn" type="submit">
+		</form>
+	</div>
+
+	<div id="teleprompt_screen" class="dspl_none"></div>
+
+</div>
+	<div id="footer" class="dspl_none">
+		<button id="btn1">Pause</button>
+		<button id="btn2">Resume</button>
+		<button id="btn3">Back</button>
+	</div>
+</body>
+</html>
