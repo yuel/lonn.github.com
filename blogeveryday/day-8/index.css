@@ -60,7 +60,7 @@ textarea {
 	color: #fafaff;
 	text-shadow: 0 0 5px #757373, 0 0 3px #7C7C7C, 0 0 2px #7F7F88, 0 0 1px #000, 0 0 1px #000;
 	z-index: 0;
-	letter-spacing: 1px;
+	letter-spacing: -1px;
 	word-wrap: break-word;
 }
 
