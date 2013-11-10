@@ -1,73 +1,49 @@
 $(document).ready(function() {
    var y = 0;
    var timer = null;
-   var time_flag = null;
+   var running = false;
 
    $('form').on('submit', function(event) {
+
       event.preventDefault();
 
       var text = $('textarea').val();
-
       if (text.replace(/^\s+|\s+$/g, '') == '') {
          text = 'You should probably enter some text next time.'
       }
 
       $('body').toggleClass('bgc_blk');
-
       $('#footer').toggleClass('dspl_none');
       $('#main').toggleClass('dspl_none');
       $('#teleprompt_screen').toggleClass('dspl_none');
-
       $('#teleprompt_screen').html(text);
 
+      running = true;
       scrollText(y);
-      var time_flag = 1;
 
-      function scrollText(y) {
+      $('#submit').attr("disabled", true);
+      $('#resume').attr("disabled", true);
+   })
 
-         // $('#btn1').on('click', function() {
-         //    clearTimeout(timer);
-         // })
-         // var time_flag = 1;
+   $('#pause').on('click', function() {
 
-         timer = setTimeout(function() {
-            var newY = y;
-            var height = $('#teleprompt_screen').height();
-
-            if (newY > -1 * height - 150) {
-               newY -= 1;
-               $('#teleprompt_screen').css('top', newY);
-               scrollText(newY);
-            }
-         }, 30);     
-
-      };
-
-      $('#btn1').on('click', function() {
-         if(time_flag) {
-            time_flag = 0;
-            clearTimeout(timer);
-         };
-         // clearTimeout(timer);
-      })
-
-      $('#btn2').on('click', function() {
-         if(!time_flag) {
-            time_flag = 1;
-            y = parseInt($('#teleprompt_screen').css('top'));
-            scrollText(y);
-         }
-      })
-
-      
+      // clearTimeout(timer);
+      running = false;
+      $('#resume').attr("disabled", false);
 
    })
 
-   $('#btn3').on('click', function() {
-      // if(time_flag) {
-      //    time_flag = 0;
-      //    clearTimeout(timer);
-      // }
+   $('#resume').on('click', function() {
+
+      y = parseInt($('#teleprompt_screen').css('top'));
+      running = true;
+      scrollText(y);
+      $('#resume').attr("disabled", true);
+      
+   })
+
+   $('#back').on('click', function() {
+
       clearTimeout(timer);
       y = 0;
       $('#teleprompt_screen').css('top', 0);
@@ -75,6 +51,31 @@ $(document).ready(function() {
       $('#footer').toggleClass('dspl_none');
       $('#main').toggleClass('dspl_none');
       $('#teleprompt_screen').toggleClass('dspl_none');
+
+      $('#submit').attr("disabled", false);
    })
+
+   $('#reset').on('click', function() {
+
+      clearTimeout(timer);
+      running = true;
+      scrollText(0);
+   })
+
+   function scrollText(y) {
+
+      timer = setTimeout(function() {
+         if(running) {
+            var newY = y;
+            var height = $('#teleprompt_screen').height();
+   
+            if (newY > -1 * height - 150) {
+               newY -= 1;
+               $('#teleprompt_screen').css('top', newY);
+               scrollText(newY);
+            }
+         }
+      }, 30);     
+   };
 
 })
