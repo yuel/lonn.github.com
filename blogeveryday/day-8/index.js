@@ -60,6 +60,7 @@ $(document).ready(function() {
       clearTimeout(timer);
       running = true;
       scrollText(0);
+      $('#resume').attr("disabled", true);
    })
 
    function scrollText(y) {
